@@ -11,7 +11,7 @@
                     )
                 ),
                 'log'               => array(
-                    'active'            => true,
+                    'active'            => false,
                     'class'             => '\Phork\Pkg\Debug\Handlers\Log',
                     'params'            => array(
                         'logfile'           => LOG_PATH.'debug.log',
