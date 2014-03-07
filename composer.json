@@ -1,0 +1,13 @@
+{
+    "name": "microphork/package-debug",
+    "description": "A simple debugging package for the microphork framework",
+    "type": "microphork-package",
+    "require": {
+        "microphork/package-installer": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Phork\\Pkg\\Debug\\": "classes"
+        }
+    }
+}
