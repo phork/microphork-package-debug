@@ -17,7 +17,7 @@
      * @author Elenor Collings <elenor@phork.org>
      * @package \Phork\Pkg\Debug
      */
-    class Debug extends Dispatcher
+    class Debug extends \Phork\Core\Dispatcher
     {
         protected $instanceOf = '\\Phork\\Pkg\\Debug\\Handlers\\HandlerInterface';
     }
