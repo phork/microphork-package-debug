@@ -15,7 +15,7 @@ This is a simple debugging package for the microphork framework. The debug class
 //load and initialize a new debug package
 $debug = \Phork::instance()->initPackage('Debug', (
     function($result, $type) {
-        $class = sprintf('\\Phork\\%s\\Debug', $type);
+        $class = sprintf('\\Phork\\%s\\Debug\\Debug', $type);
         return new $class();
     }
 ));
