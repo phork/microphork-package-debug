@@ -1,5 +1,5 @@
 <?php
-    namespace Phork\Pkg;
+    namespace Phork\Pkg\Debug;
 
     /**
      * The debug class is used to output or log any debugging data by
