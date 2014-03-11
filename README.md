@@ -8,7 +8,7 @@
 
 This is a simple debugging package for the microphork framework. The debug class is a dispatcher. The `display` handler outputs the debugging data and the `log` handler logs it to a file.
 
-To extend this package create a `\Phork\App\Auth` class in the `app/classes` folder.
+To extend this package create a `\Phork\App\Debug` class in the `app/classes` folder.
 
 
 ##Usage
