@@ -13,12 +13,8 @@ This is a simple debugging package for the microphork framework. The debug class
 
 ```
 //load and initialize a new debug package
-$debug = \Phork::instance()->initPackage('Debug', (
-    function($result, $type) {
-        $class = sprintf('\\Phork\\%s\\Debug\\Debug', $type);
-        return new $class();
-    }
-));
+$class = \Phork::instance()->initPackage('Debug');
+$debug = new $class();
 
 //get the loaded config
 $config = \Phork::config()->get('debug');
