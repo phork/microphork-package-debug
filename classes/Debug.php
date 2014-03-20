@@ -9,8 +9,8 @@
      *
      * <code>
      *   $debug = new Debug();
-     *   $debug->addHandler('log', new Debug\Handlers\Log('/path/to/logfile'));
-     *   $debug->addHandler('display', new Debug\Handlers\Display());
+     *   $debug->addHandler('log', new Handlers\Log('/path/to/logfile'));
+     *   $debug->addHandler('display', new Handlers\Display());
      *   $debug->log('Debugged!');
      * </code>
      *
