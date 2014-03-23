@@ -40,7 +40,6 @@
             $this->request = md5(rand());
         }
 
-
         /**
          * Builds the debugging string and logs the output. This can be
          * passed as many debugging params as necessary which will be

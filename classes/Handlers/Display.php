@@ -31,7 +31,6 @@
             }
         }
 
-
         /**
          * Builds the debugging string and prints the output. This can be
          * passed as many debugging params as necessary which will be
