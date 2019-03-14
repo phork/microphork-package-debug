@@ -1,11 +1,11 @@
-##Introduction
+## Introduction
 
 This is a simple debugging package for the microphork framework. The debug class is a dispatcher. The `display` handler outputs the debugging data and the `log` handler logs it to a file.
 
 To extend this package create a `\Phork\App\Debug` class in the `app/classes` folder and an `app/config/debug.php` file to define the active handler(s).
 
 
-##Usage
+## Usage
 
 ```
 //load and initialize a new debug package
@@ -25,12 +25,12 @@ $debug->log('this', 'will', 'be', 'concatenated');
 ```
 
 
-##Credits
+## Credits
 
-Built by [Elenor](http://elenor.net) at [Phork Labs](http://phorklabs.com).
+Built by [Elenor](http://elenor.net) at [Phork Labs](http://phork.org).
 
 
-##License
+## License
 
 Licensed under The MIT License
 <http://www.opensource.org/licenses/mit-license.php>
